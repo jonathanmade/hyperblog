@@ -1,0 +1,7 @@
+Este es mi primer archivo con git bash
+
+veamos como me va
+
+Ahora estoy agregando mas comentarios
+
+tengo 32 años
