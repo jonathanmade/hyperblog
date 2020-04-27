@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    color: brown;
+    color: blue;
     font-family: 'Courier New', Courier, monospace;
     margin: 20px 50px
 }
@@ -10,7 +10,7 @@ body{
     padding: 12px;
     text-align: center;
     width: 70%;
-    border: 4px solid black;
+    border: 4px solid blue;
 }
 #cabecera{
     text-align: left;
