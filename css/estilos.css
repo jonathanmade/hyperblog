@@ -1,29 +1,30 @@
 body{
+    background-attachment: fixed;
+    background: black;
     text-align: center;
     color: blue;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 20px 50px
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 2px 80px;
+    padding: 0;
 }
-#container{
-    align-content: right;
-    margin: 0 auto;
-    padding: 12px;
-    text-align: center;
-    width: 70%;
-    border: 4px solid blue;
-}
+
 #cabecera{
     text-align: left;
     font-size: 35   px;
     background: blue;
     color: #fff;
     font-weight: bold;
-    margin: 12px;
-    padding: 20px 0px 12px 5px;
+    margin: 0px;
+    padding: 20px 0px 19px 5px;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
+#cabecera #logo{
+    width: 30px;
+    vertical-align: middle;
+}
 
 #cabecera #tagline{
     font-size: 12px;
@@ -31,8 +32,20 @@ body{
 
 }
 
+#container{
+    background: white;
+    border-style: solid;
+    border-color:blue;
+
+}
+
+#container #post{
+    text-align: justify;
+}
+
 #container h1{
-    font-size: 20px;
+    text-align: center;
+    font-size: 26px;
 }
 
 #container p{
